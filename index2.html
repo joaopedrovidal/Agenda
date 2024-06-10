@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo2.css"> 
+</head>
+<body>
+    <main>
+        <section class="container">
+            <header class="header">
+                <h1 id="inicio">Cadastro de Contatos</h1> 
+            </header>
+            <div class="conteudo-principal">
+                <section>
+                    <section id="nomenclatura1">
+                        <label>Nome <label id="teste">Sobrenome
+                    </section>
+                    <input type="text" id="nome" class="inputs" autofocus readonly oninput="verificarInputs()"> 
+                    <input type="text" id="sobrenome" class="inputs" autofocus readonly oninput="verificarInputs()"> 
+                </section>  
+                <section class="segundaf">
+                </section>
+                <section class="segundaf">
+                    <section>
+                        <label id="end">Endereço 
+                    </section>
+                    <input type="text" id="endereco" class="inputs" autofocus readonly oninput="verificarInputs()"> 
+                    </label>
+                </section>
+                <section>
+                    <section id="nomenclatura3">
+                        <label>Telefone 
+                    </section>
+                    <input type="number" id="telefone" class="inputs" autofocus readonly oninput="verificarInputs()"> 
+                    </label>
+                </section>
+            </div>
+            <article class="button-group"> 
+                <button class="preto" onclick="primeiraposicao()">|< </button> 
+                <button class="preto" onclick="recua()"><</button> 
+                <button class="preto" onclick="avanca()">></button>
+                <button class="preto" onclick="ultimaposicao()">>|</button> 
+            </article>
+            <article class="conteudo-lateral">
+                <button class="botoesestilo" id="incluir" onclick="incluir()">INCLUIR</button> 
+                <button class="botoesestilo botao-desabilitado botoes" id="editar" disabled onclick="editar()">EDITAR</button> 
+                <button class="botoesestilo botao-desabilitado botoes" id="salvar" disabled onclick="salvar()">SALVAR</button> 
+                <button class="botoesestilo botao-desabilitado botoes" id="cancelar" disabled onclick="cancelar()">CANCELAR</button> 
+                <button class="botoesestilo botao-desabilitado botoes" id="excluir" disabled onclick="excluir()">EXCLUIR</button> 
+            </article>
+            <footer class="footer">
+                <h1>AGENDA DE CONTATOS</h1> 
+            </footer>
+        </section>
+    </main>
+    <script src="script2.js"></script>
+</body>
+</html>

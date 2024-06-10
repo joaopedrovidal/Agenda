@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form id="login">
+        <header>
+            <h1>AGENDA DE CONTATOS</h1>
+        </header>
+        <div>
+            <img src="logo.png" alt="logo">
+            <input type="text" placeholder="USUÁRIO" class="texto" id="usuario" required oninput="usuarioValidate()">  
+            <input type="password" placeholder="SENHA" class="texto" id="senha" required oninput="senhaValidate()"> 
+            <span class="span-required">Senha ou usuário estão incorretos</span>
+            <button onclick="desabilitar()">ENTRAR</button>
+
+        </div>
+    </form>
+    <script src="scriptlogin.js"></script>
+</body>
+</html>
+
+

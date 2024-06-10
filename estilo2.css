@@ -1,0 +1,246 @@
+/*Dupla: João Pedro Vidal dos Santos & Joicy Mendes Rodrigues
+ Disciplina: Introdução ao Desenvolvimento Web
+ Professor: Paulo Ricardo Noé */
+
+body {
+    margin: 0;
+    background-color: #fdf8f8;
+
+}
+
+nav {
+    list-style: none;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 15vw;
+    height: 47.8vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    width: 85.8vw;
+    height: 40px;
+    background-color: #04C9F4;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #04C9F4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    width: 100%;
+    height: 43px;
+}
+
+div {
+    background-color: #D9D9D9;
+    width: 454px;
+    height: 223px;
+    margin-left: 20px;
+    margin: 10px;
+
+}
+
+input {
+    border-style: none;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    color: #FFFFFF;
+}
+
+#nomenclatura1 {
+    padding-left: 12px;
+}
+
+#nomenclatura2 {
+    margin-left: 10px;
+}
+
+#nomenclatura3 {
+    padding-left: 12px;
+}
+
+#nome {
+    height: 40px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+#sobrenome {
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#endereco {
+    width: 417px;
+    height: 40px;
+    margin-left: 7px;
+}
+
+#telefone {
+    height: 40px;
+    width: 418.4px;
+    margin-left: 10px;
+}
+
+.segundaf {
+    display: inline-block;
+}
+
+button {
+    border: solid black 1px;
+    margin-left: 35px;
+    background-color: #FFFFFF;
+}
+
+.preto {
+    background-color: black;
+    color: #FFFFFF;
+    width: 70px;
+    height: 31px;
+}
+
+#end {
+    margin-left: 8px;
+}
+
+header h1 {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+header {
+    width: 100%;
+}
+
+.botoesestilo {
+    display: grid;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+
+#incluir {
+    background-color: green;
+    color: black;
+    width: 70px;
+    height: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+#editar {
+    background-color: rgb(194, 138, 18);
+    color: black;
+    width: 70px;
+    height: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+#salvar {
+    background-color: rgb(8, 161, 199);
+    color: black;
+    width: 70px;
+    height: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+#cancelar {
+    background-color: #FFFFFF;
+    color: #04C9F4;
+    width: 70px;
+    height: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+#excluir {
+    background-color: red;
+    color: black;
+    width: 70px;
+    height: 31px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes:disabled {
+    cursor: not-allowed;
+}
+
+.botao-desabilitado {
+    background-color: #FFFFFF !important;
+    border: solid 1px black;
+}
+
+
+.botao-normal {
+    background-color: rgb(8, 161, 199) !important;
+    cursor: pointer;
+}
+
+.botao-normalsalvar {
+    background-color: rgb(8, 161, 199) !important;
+    color: black;
+    cursor: pointer;
+}
+
+.botao-normalcancelar {
+    color: rgb(8, 161, 199) !important;
+    background-color: rgb(8, 161, 199);
+    border: #04C9F4 1px solid;
+    cursor: pointer;
+}
+
+.botao-normaleditar {
+    background-color: rgb(194, 138, 18);
+    color: black;
+    cursor: pointer;
+}
+
+#teste {
+    float: inline-end;
+    margin-right: 154px;
+}
+
+.header {
+    grid-area: h;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "h h" "l r" "b b" "f f";
+    grid-template-columns: 0fr;
+    grid-template-rows: 0fr 2fr 4.88fr;
+}
+
+.conteudo-principal {
+    grid-area: l;
+    grid-template-rows: auto;
+}
+
+.button-group{
+    grid-area: b;
+}
+
+.conteudo-lateral {
+    grid-area: r;
+}
+
+.footer {
+    grid-area: f;
+}
+
+
+/*Dupla: João Pedro Vidal dos Santos & Joicy Mendes Rodrigues
+ Disciplina: Introdução ao Desenvolvimento Web
+ Professor: Paulo Ricardo Noé */
